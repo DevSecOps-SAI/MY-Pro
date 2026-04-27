@@ -1,36 +1,40 @@
-# Exploratory-Data-Analysis-EDA-in-Banking-Using-Python
+# Exploratory Data Analysis (EDA) in Banking Using Python
 
-The purpose of this project is to master the exploratory data analysis (EDA) in banking with Pandas framework.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 
-## Goals of the Project:
+The purpose of this project is to master **Exploratory Data Analysis (EDA)** in the banking sector using the **Pandas** framework. This project performs "bank scoring" by analyzing client characteristics to predict behavior, specifically the likelihood of a client making a term deposit.
 
-1. Explore a banking dataset with Pandas framework.
-2. Build pivot tables.
-3. Visualize the dataset with various plot types.
+---
 
-## Outline
-1. Materials and methods
-2. General part :   i) Libraries import  ii) Dataset exploration  iii) Pivot tables  iv) Visualization in Pandas
-3. Tasks
-  
-  
-## Materials and methods: 
-The data that we are going to use for this is a subset of an open source Bank Marketing Data Set from the UCI ML repository.
+## 📌 Project Goals
+* **Data Exploration:** Analyze banking datasets using the Pandas framework.
+* **Statistical Analysis:** Build complex pivot tables to extract business insights.
+* **Data Visualization:** Create meaningful plots to identify trends and marketing opportunities.
 
-This dataset is publicly available for research. The details are described in [Moro et al., 2014].
+## 🛠️ Technology Stack
+* **Pandas:** Data manipulation and analysis.
+* **NumPy:** Numerical computing.
+* **Matplotlib:** Static, animated, and interactive visualizations.
 
-During the work, the task of preliminary analysis of a positive response (term deposit) to direct calls from a bank is to solve. In essence, the task is a matter of bank scoring, i.e. according to the characteristics of a client (potential client), their behavior is predicted (loan default, a wish to make a deposit, etc.).
+## 📊 Dataset Overview
+The analysis uses a subset of the [UCI Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). 
+* **bank-additional.csv:** The core dataset for analysis.
+* **bank-additional-names.txt:** Detailed descriptions of all client and marketing features.
 
-In this project, we will try to give answers to a set of questions that may be relevant when analyzing banking data:
+---
 
-#### What is the share of clients attracted in our source data?
-#### What are the mean values ​​of numerical features among the attracted clients?
-#### What is the average call duration for the attracted clients?
-#### What is the average age among the attracted and unmarried clients?
-#### What is the average age and call duration for different types of client employment?
-In addition, we will make a visual analysis in order to plan marketing banking campaigns more effectively.
+## 🔍 Key Business Questions Answered
+The project provides programmatic answers to the following:
+1.  **Conversion Rate:** What is the share of clients attracted in our source data?
+2.  **Customer Profiles:** What are the mean values of numerical features among attracted clients?
+3.  **Communication Depth:** What is the average call duration for successfully attracted clients?
+4.  **Demographics:** What is the average age among attracted and unmarried clients?
+5.  **Labor Analysis:** What is the average age and call duration across different employment types?
 
-## USED LIBRARIES:
-1. NUMPY
-2. PANDAS
-3. MATPLOTLIB
+## 🚀 Getting Started
+
+### Prerequisites
+Ensure you have Python installed, then install the required libraries:
+```bash
+pip install pandas numpy matplotlib
